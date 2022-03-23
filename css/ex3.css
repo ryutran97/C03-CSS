@@ -3,8 +3,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 300px;
-    display: flex;
-    position: relative;
+    display: block;
+    /* position: relative; */
     padding-left: 350px;
     padding-top: 200px;
 }
@@ -12,5 +12,7 @@
     border: solid 10px white;
     width: 200px;
     height: 200px;
-    transform: translate(100px, -155px);
+    /* transform: translate(100px, -155px); */
+    margin-left: 100px;
+    margin-top: -155px;
 }
